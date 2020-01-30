@@ -8,7 +8,7 @@
 
 
 hadoop打包操作 
-向usr/local/hadoop/etc/hadoop/hadoop-env.sh中加入
+向usr/local/hadoop/etc/hadoopcd/hadoop-env.sh中加入
 export HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop   --启动出错（改）
 export HADOOP_CLASSPATH=/usr/local/hbase/lib/* --把hbase的lib加入
 1、点击Maven中的packaging完成打包，jar包的路径为linux下的路径，后面填写主类
